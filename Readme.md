@@ -1,6 +1,20 @@
 # Plugable Login and SignUp Template
-1)This is just a try out repo for the testing the features of django
-2)The project just basically contains a Login and SignUp system
+1)This is just a try out repo for the testing the features of django\n
+2)The project just basically contains a Login and SignUp system\n
+3)The whole purpose of this project is to understand the practices of Django\n
+4)This project can also serve as a boiler plate for many projects\n
 
-# Installing and running
-1)to install required packages just do pip install -requirments.txt
+# Installing requirments\n
+1)open shell prompt and run 'pip install -r requirements.txt'\n
+
+#Running the WebApp\n
+1)Download or clone the repo to your local machine\n
+2)Open the directory of the download\n
+3)run command in shell 'python manage.py runserver'\n
+4)click on the localhost address that appears below\n
+
+# Running Tests \n
+1)All the test havve been written to the login_template_app/tests.py\n
+2)from shell run 'python manage.py runserver'\n
+
+
