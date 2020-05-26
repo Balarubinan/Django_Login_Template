@@ -11,7 +11,7 @@
 
 1)open shell prompt and run 'pip install -r requirements.txt'
 
-#Running the WebApp
+# Running the WebApp
 
 1)Download or clone the repo to your local machine
 
@@ -23,7 +23,7 @@
 
 # Running Tests
 
-1)All the test havve been written to the login_template_app/tests.py
+1)All the test have been written to the login_template_app/tests.py
 
 2)from shell run 'python manage.py runserver'
 
