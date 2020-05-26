@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style media="screen">
+input.form-radio-input{
+    width:auto;
+ }
+.form-radio-label{
+margin-left:5px;
+}
+body{
+background-color:#f1f1f1;
+}
+.container{
+  max-width:350px;
+  border-radius: 20px;
+  margin: auto;
+  background: rgba(0,0,0,.8);
+  box-sizing: border-box;
+  padding: 40px;
+  color: #fff;
+  margin-top: 100px;
+  opacity:.9;
+}
+h2{
+text-align:center;
+}
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:80%;
+}
+button{
+text-align:center;
+}
+</style>
+</head>
+<body>
+{% if error %}
+<h3 style="color:red;">{{error}}</h3>
+{%endif%}
+<div class="container">
+  <h2>Login</h2>
+  <form action="" method="POST">
+    {%csrf_token%}
+    <div class="form-group">
+      <label for="email" >Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary btn-xl">Login</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+   
