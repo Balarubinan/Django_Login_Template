@@ -21,6 +21,10 @@
 
 4)click on the localhost address that appears below
 
+5)Append '/Login/login' to open up the login page
+
+6)Append '/Login/signup' to open up the signup page
+
 # Running Tests
 
 1)All the test have been written to the login_template_app/tests.py
