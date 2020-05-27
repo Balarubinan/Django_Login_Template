@@ -25,7 +25,7 @@
 
 1)All the test have been written to the login_template_app/tests.py
 
-2)from shell run 'python manage.py runserver'
+2)from shell run 'python manage.py test login_template_app'
 
 
 
